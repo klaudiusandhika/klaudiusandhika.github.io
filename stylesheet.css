@@ -1,0 +1,49 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS';
+  } */
+  a {
+    text-decoration: none;
+    color: #7e4d03;
+  }
+
+  .display{
+    width: 1180px;
+    border-radius: 20px;
+    margin: 0px auto;
+    background-image: url('pencil.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 80px 10px;
+  }
+  .text {
+    color: beige;
+    display: inline-block;
+    margin: 8%;
+    align-items: center;
+  }
+  h2 {
+    font-size: 45px;
+  }
+  p {
+    font-size: 20px;
+  }
+
+  button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin-left: 8%;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px;
+    color:black;
+    background: beige transparent;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  button:hover{
+    background: #f3c682;
+  }
+  
